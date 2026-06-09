@@ -1,0 +1,7 @@
+[
+  {"account":"AlphaCorp","arr":1200000,"costToServe":420000,"grossMargin":65,"marginRisk":"High","driver":"Support + custom workflows","quarterlyImpact":-78000},
+  {"account":"BluePeak Retail","arr":540000,"costToServe":210000,"grossMargin":61,"marginRisk":"High","driver":"High onboarding effort","quarterlyImpact":-45000},
+  {"account":"Orbital Logistics","arr":950000,"costToServe":310000,"grossMargin":67,"marginRisk":"Medium","driver":"Integration support","quarterlyImpact":-32000},
+  {"account":"Zenova Health","arr":720000,"costToServe":150000,"grossMargin":79,"marginRisk":"Low","driver":"Efficient usage","quarterlyImpact":18000},
+  {"account":"Northstar Bank","arr":860000,"costToServe":190000,"grossMargin":78,"marginRisk":"Low","driver":"Normal usage","quarterlyImpact":12000}
+]

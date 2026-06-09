@@ -1,0 +1,10 @@
+[
+  {"id":"alphacorp","name":"AlphaCorp","arr":1200000,"costToServe":420000,"grossMargin":65,"marginRisk":"High","mainDriver":"Support + custom workflows","aiRecommendation":"Reprice premium support; introduce self-serve capabilities for custom workflows"},
+  {"id":"northstar","name":"Northstar Bank","arr":860000,"costToServe":190000,"grossMargin":78,"marginRisk":"Low","mainDriver":"Normal usage","aiRecommendation":"Monitor — strong expansion candidate based on usage growth"},
+  {"id":"bluepeak","name":"BluePeak Retail","arr":540000,"costToServe":210000,"grossMargin":61,"marginRisk":"High","mainDriver":"High onboarding effort","aiRecommendation":"Move to standardized onboarding playbook; reduce custom implementation hours"},
+  {"id":"zenova","name":"Zenova Health","arr":720000,"costToServe":150000,"grossMargin":79,"marginRisk":"Low","mainDriver":"Efficient usage","aiRecommendation":"Prioritize for expansion — highest margin efficiency in portfolio"},
+  {"id":"orbital","name":"Orbital Logistics","arr":950000,"costToServe":310000,"grossMargin":67,"marginRisk":"Medium","mainDriver":"Integration support","aiRecommendation":"Automate integration support tasks; consider dedicated integration tier"},
+  {"id":"meridien","name":"Meridien Software","arr":620000,"costToServe":145000,"grossMargin":77,"marginRisk":"Low","mainDriver":"Self-sufficient","aiRecommendation":"Good margin profile — monitor for upsell opportunity"},
+  {"id":"apex","name":"Apex Manufacturing","arr":480000,"costToServe":175000,"grossMargin":64,"marginRisk":"Medium","mainDriver":"Complex onboarding","aiRecommendation":"Review implementation scope against contract; address scope creep"},
+  {"id":"novapay","name":"NovaPay","arr":340000,"costToServe":82000,"grossMargin":76,"marginRisk":"Low","mainDriver":"Standard usage","aiRecommendation":"Stable — good candidate for referral program"}
+]

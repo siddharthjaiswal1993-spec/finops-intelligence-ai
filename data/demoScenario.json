@@ -1,0 +1,8 @@
+[
+  {"step":1,"title":"New Spend Anomaly Detected","status":"Anomaly flagged","financialImpact":"$210K projected variance","description":"Spend Anomaly Agent detects AWS compute spend increased 38% week-over-week — $210K above expected."},
+  {"step":2,"title":"Budget Overrun Forecast Generated","status":"Budget risk identified","financialImpact":"$310K projected overrun","description":"Budget Risk Agent forecasts Engineering will exceed monthly budget by $310K by month-end."},
+  {"step":3,"title":"Margin Impact Linked to Enterprise Accounts","status":"Root cause identified","financialImpact":"2.8% projected margin decline","description":"Margin Intelligence Agent connects the AWS spike to three enterprise customer workloads."},
+  {"step":4,"title":"AI Recommendations Generated","status":"Actions recommended","financialImpact":"Up to $450K combined impact","description":"Three prioritized recommendations generated."},
+  {"step":5,"title":"CFO Summary Generated for Review","status":"Awaiting CFO approval","financialImpact":"$620K total risk flagged","description":"Executive Briefing Agent drafts a CFO Weekly Risk Brief. Human approval required."},
+  {"step":6,"title":"Actions Created — Slack Alert and Jira Task","status":"Actions dispatched","financialImpact":"Response initiated","description":"With human approval, Jira task created and Slack alert sent."}
+]

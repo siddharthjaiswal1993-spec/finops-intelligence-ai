@@ -1,0 +1,8 @@
+[
+  {"id":"cfo-weekly","title":"CFO Weekly Risk Brief","audience":"CFO, VP Finance","frequency":"Weekly","lastGenerated":"2025-06-09T14:00:00Z","status":"Ready"},
+  {"id":"board-finance","title":"Board Finance Ops Summary","audience":"Board, CEO, CFO","frequency":"Monthly","lastGenerated":"2025-06-01T09:00:00Z","status":"Ready"},
+  {"id":"budget-overrun","title":"Budget Overrun Forecast","audience":"FP&A, Finance Ops","frequency":"Daily","lastGenerated":"2025-06-09T10:00:00Z","status":"Ready"},
+  {"id":"vendor-renewal","title":"Vendor Renewal Risk Report","audience":"Procurement, Finance","frequency":"Weekly","lastGenerated":"2025-06-08T16:00:00Z","status":"Ready"},
+  {"id":"margin-plan","title":"Margin Efficiency Plan","audience":"CS Ops, RevOps, CFO","frequency":"Monthly","lastGenerated":"2025-06-09T11:00:00Z","status":"Ready"},
+  {"id":"dept-budget","title":"Department Budget Owner Summary","audience":"Department Heads","frequency":"Weekly","lastGenerated":"2025-06-09T06:00:00Z","status":"Ready"}
+]

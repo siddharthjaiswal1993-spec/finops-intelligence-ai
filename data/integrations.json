@@ -1,0 +1,11 @@
+[
+  {"id":"netsuite","name":"NetSuite","category":"ERP / Finance","status":"Connected","lastSync":"1 hour ago","description":"General ledger, actuals, budget data, and department spend"},
+  {"id":"salesforce","name":"Salesforce","category":"CRM / Revenue","status":"Connected","lastSync":"24 min ago","description":"Account ARR, contract values, and revenue signals"},
+  {"id":"ramp","name":"Ramp","category":"Spend Management","status":"Connected","lastSync":"2 hours ago","description":"Corporate card transactions and real-time spend data"},
+  {"id":"aws","name":"AWS","category":"Cloud / Infra","status":"Connected","lastSync":"12 min ago","description":"EC2, RDS, S3, and all AWS service spend"},
+  {"id":"snowflake","name":"Snowflake","category":"Cloud / Infra","status":"Connected","lastSync":"35 min ago","description":"Data warehouse query and compute costs"},
+  {"id":"slack","name":"Slack","category":"Collaboration","status":"Connected","lastSync":"5 min ago","description":"Alert delivery and action notifications"},
+  {"id":"jira","name":"Jira","category":"Project Management","status":"Connected","lastSync":"3 hours ago","description":"Action item creation and project tracking"},
+  {"id":"quickbooks","name":"QuickBooks","category":"ERP / Finance","status":"Available","description":"SMB accounting and expense management"},
+  {"id":"hubspot","name":"HubSpot","category":"CRM / Revenue","status":"Available","description":"Revenue pipeline and deal data"}
+]

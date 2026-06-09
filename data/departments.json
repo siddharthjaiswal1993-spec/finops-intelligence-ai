@@ -1,0 +1,9 @@
+[
+  {"id":"eng","name":"Engineering","budget":1200000,"currentSpend":1010000,"forecastedSpend":1510000,"variance":310000,"riskLevel":"High","mainDriver":"Cloud compute spike"},
+  {"id":"mkt","name":"Marketing","budget":900000,"currentSpend":702000,"forecastedSpend":1045000,"variance":145000,"riskLevel":"Medium","mainDriver":"Paid campaign overspend"},
+  {"id":"cs","name":"Customer Success","budget":820000,"currentSpend":664000,"forecastedSpend":985000,"variance":165000,"riskLevel":"High","mainDriver":"High-touch support cost"},
+  {"id":"sales","name":"Sales","budget":760000,"currentSpend":518000,"forecastedSpend":800000,"variance":40000,"riskLevel":"Low","mainDriver":"Travel expenses"},
+  {"id":"product","name":"Product","budget":420000,"currentSpend":302000,"forecastedSpend":475000,"variance":55000,"riskLevel":"Medium","mainDriver":"Research tools"},
+  {"id":"support","name":"Support","budget":380000,"currentSpend":270000,"forecastedSpend":360000,"variance":-20000,"riskLevel":"Low","mainDriver":"Within budget"},
+  {"id":"ops","name":"Operations","budget":340000,"currentSpend":241000,"forecastedSpend":320000,"variance":-20000,"riskLevel":"Low","mainDriver":"Within budget"}
+]

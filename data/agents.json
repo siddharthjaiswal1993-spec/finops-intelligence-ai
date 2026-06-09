@@ -1,0 +1,7 @@
+[
+  {"id":"budget-risk","name":"Budget Risk Agent","status":"Active","lastRunMinutes":8,"insightsGenerated":12,"confidence":91,"description":"Monitors budget burn, forecasted variance, and department-level overrun probability"},
+  {"id":"spend-anomaly","name":"Spend Anomaly Agent","status":"Active","lastRunMinutes":11,"insightsGenerated":17,"confidence":88,"description":"Detects unusual spend patterns across vendors, tools, cloud, and operational workflows"},
+  {"id":"margin-intel","name":"Margin Intelligence Agent","status":"Active","lastRunMinutes":15,"insightsGenerated":9,"confidence":86,"description":"Connects ARR, cost-to-serve, cloud usage, and support load to customer profitability"},
+  {"id":"vendor-opt","name":"Vendor Optimization Agent","status":"Active","lastRunMinutes":22,"insightsGenerated":7,"confidence":84,"description":"Tracks vendor renewals, usage health, pricing increases, and consolidation opportunities"},
+  {"id":"exec-brief","name":"Executive Briefing Agent","status":"Active","lastRunMinutes":30,"insightsGenerated":4,"confidence":90,"description":"Generates CFO summaries, board-ready insights, weekly risk briefs, and department action plans"}
+]

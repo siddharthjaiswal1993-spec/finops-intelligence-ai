@@ -1,0 +1,95 @@
+import type { Recommendation } from '@/types';
+
+export const recommendations: Recommendation[] = [
+  {
+    id: 'r1',
+    title: 'Optimize AWS Compute Workloads',
+    estimatedImpact: 140000,
+    impactPeriod: 'this month',
+    urgency: 'High',
+    confidence: 92,
+    owner: 'Engineering Ops',
+    status: 'Open',
+    explanation:
+      'Compute workloads increased 38% week-over-week without proportional ARR or feature growth. Enterprise customer workloads are running untagged. Reserved capacity could reduce costs by 20-25%.',
+    category: 'Cloud',
+  },
+  {
+    id: 'r2',
+    title: 'Reduce Unused Salesforce Seats',
+    estimatedImpact: 220000,
+    impactPeriod: 'annually',
+    urgency: 'Medium',
+    confidence: 86,
+    owner: 'RevOps',
+    status: 'Open',
+    explanation:
+      'Salesforce license utilization is 71%. 148 inactive seats identified across Sales and Marketing. Renewal in 64 days presents an ideal renegotiation window.',
+    category: 'SaaS',
+  },
+  {
+    id: 'r3',
+    title: 'Reprice Premium Support for High-Touch Accounts',
+    estimatedImpact: 310000,
+    impactPeriod: 'quarterly margin recovery',
+    urgency: 'High',
+    confidence: 89,
+    owner: 'Customer Success',
+    status: 'Needs review',
+    explanation:
+      'Three enterprise customers — AlphaCorp, BluePeak Retail, and Orbital Logistics — consume support resources significantly above contract assumptions. Gross margin on these accounts is 12-18% below portfolio average.',
+    category: 'Margin',
+  },
+  {
+    id: 'r4',
+    title: 'Consolidate Duplicate Analytics Tools',
+    estimatedImpact: 370000,
+    impactPeriod: 'annually',
+    urgency: 'Medium',
+    confidence: 81,
+    owner: 'Finance Ops',
+    status: 'Open',
+    explanation:
+      'Product, Marketing, and RevOps are independently using overlapping analytics, enrichment, and reporting tools. Consolidation to a single platform would eliminate $370K in annual redundancy.',
+    category: 'SaaS',
+  },
+  {
+    id: 'r5',
+    title: 'Pause Low-Conversion Paid Campaigns',
+    estimatedImpact: 90000,
+    impactPeriod: 'this month',
+    urgency: 'Medium',
+    confidence: 77,
+    owner: 'Marketing Ops',
+    status: 'Open',
+    explanation:
+      'Paid acquisition spend in Segment C is underperforming — conversion rate 2.1x below average. Pausing and reallocating to higher-converting channels would improve CAC efficiency.',
+    category: 'Marketing',
+  },
+  {
+    id: 'r6',
+    title: 'Renegotiate DataStack Renewal',
+    estimatedImpact: 120000,
+    impactPeriod: 'annually',
+    urgency: 'High',
+    confidence: 94,
+    owner: 'Procurement',
+    status: 'Open',
+    explanation:
+      'DataStack renewal due in 32 days with expected 18% price increase. Usage is moderate. Initiating renegotiation now with alternative benchmarks gives maximum leverage.',
+    category: 'Vendor',
+  },
+  {
+    id: 'r7',
+    title: 'Standardize Enterprise Onboarding Playbook',
+    estimatedImpact: 420000,
+    impactPeriod: 'quarterly',
+    urgency: 'High',
+    confidence: 84,
+    owner: 'Customer Success',
+    status: 'Open',
+    explanation:
+      'Implementation variance across enterprise accounts is causing 40-60% cost overruns on onboarding. Standardizing the playbook and reducing custom scope would improve implementation margin significantly.',
+    category: 'Operations',
+  },
+];
