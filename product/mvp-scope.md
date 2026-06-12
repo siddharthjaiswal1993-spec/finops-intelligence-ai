@@ -29,7 +29,7 @@
 - Recharts PieChart: Department View page (spend breakdown)
 
 ### Documentation
-- 12 docs files (product vision through interview talking points)
+- 12 docs files (product vision through product design decisions)
 - 5 product files (PRD, MVP scope, user stories, feature inventory, release plan)
 - 5 AI files (agent definitions, insight format, forecasting logic, anomaly detection, recommendation engine)
 - 4 architecture files (system overview, integration architecture, data flow, security)

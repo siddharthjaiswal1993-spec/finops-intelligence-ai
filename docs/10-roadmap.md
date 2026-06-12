@@ -23,7 +23,7 @@ Four-phase roadmap from portfolio prototype to enterprise-grade AI finance opera
 9. 19-integration catalog across ERP, CRM, cloud, collaboration, and project management
 10. Comprehensive product documentation (12 docs, 5 AI specs, architecture overview)
 
-**New Personas Unlocked:** Product stakeholders, investors, hiring managers
+**New Personas Unlocked:** Product stakeholders, investors, enterprise buyers
 
 **Revenue Potential:** N/A — portfolio showcase
 
