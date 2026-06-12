@@ -151,7 +151,31 @@ App runs at `http://localhost:5173`
 
 ---
 
-Built with Claude Code · Portfolio project demonstrating AI-native product thinking for finance operations
+---
+
+## What I Built
+
+| Artifact | Description |
+|---|---|
+| 12 product docs | Vision, requirements, personas, user journeys, agent architecture, demo scenario, data model, governance, metrics, roadmap, GTM, design decisions |
+| Working prototype | React 18 + TypeScript + Vite, 11 pages, realistic mock data |
+| Standard portfolio docs | PORTFOLIO_AUDIT, PRODUCT_THESIS, WHAT_I_BUILT, OUTCOME_MODEL, AI_PRODUCT_JUDGMENT |
+
+---
+
+## Build / Maintain / Improve / Kill
+
+**Build** — Real data integrations (NetSuite, AWS Cost Explorer, Salesforce, Ramp) and LLM-generated insight narratives. These are the two capabilities that take the product from a validated prototype to a production-grade intelligence platform.
+
+**Maintain** — The 10-field insight schema and the deterministic calculation model. These are non-negotiable constraints that protect the product's credibility with finance leaders. Do not compromise them for speed.
+
+**Improve** — The confidence calibration model. The current prototype uses hardcoded confidence scores. A production system requires a methodology for calculating confidence from data quality, signal strength, and historical accuracy — and a feedback loop that updates it.
+
+**Kill** — Any feature that moves financial numbers from the structured calculation layer to LLM generation. The risk of confident but wrong numbers in a CFO-facing product is not worth any capability gain.
+
+---
+
+*Independent product exploration. Uses synthetic examples, mock data, and public category-level assumptions.*
 
 ---
 
