@@ -1,6 +1,8 @@
 # FinOps Intelligence AI
 
-**FinOps Intelligence AI is an AI-native finance operations intelligence platform that forecasts budget risk, detects operational spend anomalies, and surfaces margin efficiency opportunities before they become board-level financial issues.**
+**Budget risk intelligence — detect financial risk before month-end close, not after.**
+
+**Status:** Concept + Prototype · Synthetic examples and mock data throughout
 
 GitHub: https://github.com/siddharthjaiswal1993-spec/finops-intelligence-ai
 
@@ -151,80 +153,29 @@ App runs at `http://localhost:5173`
 
 ---
 
-Built with Claude Code · Portfolio project demonstrating AI-native product thinking for finance operations
+---
+
+## What I Built
+
+| Artifact | Description |
+|---|---|
+| 12 product docs | Vision, requirements, personas, user journeys, agent architecture, demo scenario, data model, governance, metrics, roadmap, GTM, design decisions |
+| Working prototype | React 18 + TypeScript + Vite, 11 pages, realistic mock data |
+| Standard portfolio docs | PORTFOLIO_AUDIT, PRODUCT_THESIS, WHAT_I_BUILT, OUTCOME_MODEL, AI_PRODUCT_JUDGMENT |
 
 ---
 
-## Previous Vite Template Notes
+## Build / Maintain / Improve / Kill
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Build** — Real data integrations (NetSuite, AWS Cost Explorer, Salesforce, Ramp) and LLM-generated insight narratives. These are the two capabilities that take the product from a validated prototype to a production-grade intelligence platform.
 
-Currently, two official plugins are available:
+**Maintain** — The 10-field insight schema and the deterministic calculation model. These are non-negotiable constraints that protect the product's credibility with finance leaders. Do not compromise them for speed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Improve** — The confidence calibration model. The current prototype uses hardcoded confidence scores. A production system requires a methodology for calculating confidence from data quality, signal strength, and historical accuracy — and a feedback loop that updates it.
 
-## React Compiler
+**Kill** — Any feature that moves financial numbers from the structured calculation layer to LLM generation. The risk of confident but wrong numbers in a CFO-facing product is not worth any capability gain.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+*Independent product exploration. Uses synthetic examples, mock data, and public category-level assumptions.*
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
