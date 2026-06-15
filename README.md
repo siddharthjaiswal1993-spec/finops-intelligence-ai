@@ -153,8 +153,6 @@ App runs at `http://localhost:5173`
 
 ---
 
----
-
 ## What I Built
 
 | Artifact | Description |
